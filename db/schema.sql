@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS associate_DB;
-CREATE database associate_DB;
+CREATE DATABASE associate_db;
 
 USE associate_DB;
 
@@ -17,7 +17,7 @@ CREATE TABLE role (
     PRIMARY KEY (id)
 );
 
-CREATE TABLE employee (
+CREATE TABLE associate (
     id INT AUTO_INCREMENT NOT NULL,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,

@@ -5,12 +5,12 @@ const tableConsole = require('console.table');
 const util = require('util');
 
 // Creates connection to MySQL 
-let connection = mysql.initConnection({
+let connection = mysql.createConnection ({
     host: 'localhost',
-    port: 3001,
+    // port: 3001,
     user: 'root',
-    password: '',
-    database: 'associate_DB'
+    password: 'Chewbacca12775@',
+    database: 'associate_db'
 });
 
 connection.query = util.promisify(connection.query);
