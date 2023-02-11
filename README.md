@@ -25,6 +25,7 @@ Installation
     Run node app.js or npm run start to start the application
 
 Usage:
+![image](https://user-images.githubusercontent.com/110740700/218276749-204284ed-3c65-4b21-beb4-19820cc787a0.png)
 
 
 DEMO:
